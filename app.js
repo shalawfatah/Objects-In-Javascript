@@ -13,3 +13,5 @@ const westeros = {
 }
 let allKeys = Object.keys(westeros)
 console.log(allKeys)
+let allVals = Object.values(westeros)
+console.log('Values: ', allVals)
