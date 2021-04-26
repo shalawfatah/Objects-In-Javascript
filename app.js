@@ -49,3 +49,15 @@ job.showDetails()
 const barisa = Object.create(job)
 barisa.position = 'manager'
 barisa.showDetails()
+
+// To merge two objects
+const person = {
+    name: 'Ahmed',
+    age: 32
+}
+const employment = {
+    job: 'Manager',
+    company: 'Some Company'
+}
+const ahmed = Object.assign(person, employment)
+console.log(ahmed)
