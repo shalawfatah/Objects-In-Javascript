@@ -32,3 +32,15 @@ console.log(reverseEntries)
 // To freeze an object and prevent changes to it
 let objfreeze = Object.freeze(westeros)
 console.log(objfreeze)
+
+// To create a method for an object
+const job = {
+    position: 'cashier',
+    type: 'hourly',
+    isAvailable: true,
+    showDetails() {
+        const accepting = this.isAvailable ? 'is accepting applications' : "is not currently accepting applications";
+        console.log(`The ${this.position} position is ${this.type} and ${accepting}.`);
+    }
+}
+job.showDetails()
