@@ -61,3 +61,6 @@ const employment = {
 }
 const ahmed = Object.assign(person, employment)
 console.log(ahmed)
+
+// If we allow modifying current properties of an Obj, but prevent adding new ones, we use Seal
+const sealed = Object.seal(person)
