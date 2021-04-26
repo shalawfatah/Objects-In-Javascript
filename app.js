@@ -28,3 +28,7 @@ console.log(allentries)
 // To create an object out of an array 
 let reverseEntries = Object.fromEntries(allentries)
 console.log(reverseEntries)
+
+// To freeze an object and prevent changes to it
+let objfreeze = Object.freeze(westeros)
+console.log(objfreeze)
