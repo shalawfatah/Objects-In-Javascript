@@ -44,3 +44,8 @@ const job = {
     }
 }
 job.showDetails()
+
+// To create a new object which inherits the values of the current object
+const barisa = Object.create(job)
+barisa.position = 'manager'
+barisa.showDetails()
