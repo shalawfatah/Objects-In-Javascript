@@ -25,3 +25,6 @@ console.log('Values: ', allVals)
 let allentries = Object.entries(westeros)
 console.log(allentries)
 
+// To create an object out of an array 
+let reverseEntries = Object.fromEntries(allentries)
+console.log(reverseEntries)
